@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    height: 100vh;
+}
+
+
+
+img {
+    width: 50%;
+}
+
+.container {
+    width: 50%;
+    height: 100vh;
+    border: solid red;
+}
+
+.form-container {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   border: solid black;
+    height: 80vh;
+}
+
+.form-controls {
+    display: flex;
+   border: solid blue;
+    width: 900px;
+    height: 250px;
+    justify-content: flex-start;
+    gap: 70px;
+
+}
+
+
+.left-side {
+    display: flex;
+    border: solid yellow;
+   flex-direction: column;
+   width: 25%;
+}
+
+
+
+.right-side {
+    display: flex;
+    border:  solid green;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    
+}
+
+
+
