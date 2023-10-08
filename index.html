@@ -10,14 +10,13 @@
     <title>Sign Up Form</title>
 </head>
 <body>
-    <img src="image.jpg" alt="">
+    <img src="image.jpg" alt="picture">
     <div class="container">
         <div class="form-container">
             <form action="">
                 <div class="form-controls">
-                        
                     <h1>Sign Up</h1>
-                    <span aria-label="*">Required*</span>
+                    <span>Required*</span>
                     <label for="fname">FIRST NAME*</label>
                     <input type="text" id="fname" name="user-fname" required>
                     <label for="lname">LAST NAME*</label>
@@ -25,25 +24,20 @@
                     <label for="email">EMAIL*</label>
                     <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
                     <label for="password">PASSWORD*</label>
-                    <input type="password" id="password" name="pass" required>
+                    <input type="password"  id="password" name="pass" required>
+                    <span id="error-mess-one"></span>
                     <label for="conf-pass">CONFIRM PASSWORD*</label>
                     <input type="password" id="conf-pass" required>
+                    <span id="error-mess-two"></span>
                     <label for="phone">PHONE NUMBER</label>
                     <input type="tel" id="phone" pattern="\d{10}|\d{3}[\-\s\.]\d{3}[\-\s\.]\d{4}" placeholder="ex. 123-456-7890" title="U.S based Phone Number in the format of: 123-456-7890">
                     <div class="button-class"><button>Create Account</button>
                         <p>Already have an account?<a href="">Log in</a></p>
                     </div>
                 </div>
-                    
-               
-                    
-
-
-            
-            
             </form>
         </div>
     </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
